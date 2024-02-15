@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/index.css">
+
+    <title>Bootstrap Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="'container-fluid bg-light py-5">
+      <div
+        class="container d-md-flex justify-content-center align-items-center gap-5 text-center text-md-start"
+      >
+        <div>
+          <h1>Welcome to my world</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            aperiam corrupti, cumque doloremque rem quis. Dolore reprehenderit
+            assumenda atque quas quae earum voluptas, aut soluta laudantium,
+            aperiam ea beatae molestiae?
+          </p>
+        </div>
+        <img src="./Assets/homePage.jpeg" class="img-fluid w-50" alt="" />
+      </div>
+    </section>
+
+    <section class="container my-5" id="about">
+      <h1 class="text-center display-4">About Us</h1>
+      <hr class="w-25 mx-auto" />
+      <div
+        class="d-md-flex justify-content-center align-items-center text-center text-md-start gap-5 mt-5"
+      >
+        <img src="/Assets/about.jpeg" class="img-fluid w-50" alt="" />
+        <div>
+          <h2>Our Website</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+            exercitationem expedita saepe quae error sit cupiditate dolorem
+            consequuntur obcaecati eum perferendis aspernatur velit quibusdam,
+            accusantium ipsam nisi atque laudantium, dolorum hic. Delectus ipsa
+            corrupti, sed ex iure cum fugit minima dolore, optio maxime ab, sunt
+            expedita repellendus corporis consequatur numquam!
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            libero sunt exercitationem architecto voluptate eligendi est
+            incidunt quos ullam similique. A facilis laboriosam consequuntur,
+            voluptatibus consequatur quos soluta enim! Adipisci, earum debitis
+            in sapiente itaque sit laboriosam consequatur, commodi neque eos ut
+            repellat assumenda placeat possimus reiciendis dignissimos aperiam
+            at!
+          </p>
+          <button class="btn btn-outline-danger">Know more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container text-center" id="services">
+      <h1 class="text-center display-4">Services</h1>
+      <hr class="w-25 mx-auto" />
+
+      <div
+        class="d-md-flex justify-content-center align-items-center gap-5 my-5"
+      >
+        <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem">
+          <img src="/Assets/services1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Painting</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem">
+          <img src="/Assets/abstract.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Abstract</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem">
+          <img
+            src="/Assets/film-photography.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h1 class="text-center display-4">Gallery</h1>
+      <hr class="w-25 mx-auto" />
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="/Assets/img1.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img2.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img3.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img3.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img1.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img2.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img2.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img3.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="/Assets/img1.jpg" class="img-fluid w-100 h-75" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h1 class="text-center display-4">User Data</h1>
+      <hr class="w-25 mx-auto" />
+      <table class="table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="container my-5 w-75" id="contact">
+      <h1 class="text-center display-4">Contact us</h1>
+      <hr class="w-25 mx-auto" />
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="exampleInputPassword1" />
+        </div>
+        <button type="submit" class="btn btn-outline-danger btn-lg">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+      <p class="mb-0">All rights reserved</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
